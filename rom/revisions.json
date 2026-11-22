@@ -1,0 +1,24 @@
+{
+  "stock": [
+    {
+      "file": "HP15C+ 04-11-11.bin",
+      "sha256": "436a203da8e4bd1d3bf1d791ea0bf19dfff53c9a879aeb24bae211fad21a4d83",
+      "rom_sha256": "5814ac44c138165581a66196e27b2ce6290fa18a354b5f89dcc389a1021498a6",
+      "normalize": "2011-04-11.patch"
+    },
+    {
+      "file": "HP15C+ 04-15-11 LATEST.bin",
+      "sha256": "6631bc6cb8ad1c064db199c3a14ff80e13c267232996ef143ae7c7f3a9b422a9",
+      "rom_sha256": "b71ee70a0a2e7c38693c626d283ef3a3a6a8eba2e934055a7147dbe2a5cecbda",
+      "normalize": null
+    },
+    {
+      "file": "HP15C+ 08-19-09.bin",
+      "sha256": "bbfb2c3f86d954af07c95c184edf87260cd31b261747d5e92f9937952172f7f9",
+      "rom_sha256": "5814ac44c138165581a66196e27b2ce6290fa18a354b5f89dcc389a1021498a6",
+      "normalize": "2009-08-19.patch"
+    }
+  ],
+  "base_rom_sha256": "b71ee70a0a2e7c38693c626d283ef3a3a6a8eba2e934055a7147dbe2a5cecbda",
+  "expanded_rom_sha256": "1a81e7bc1ec4ce969953f90fc389ef98b887f74c47d40bd00a6f4cace7ded6d2"
+}

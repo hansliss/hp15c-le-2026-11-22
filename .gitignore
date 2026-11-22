@@ -1,0 +1,14 @@
+/build*/
+/CMakeUserPresets.json
+/CMakeCache.txt
+/CMakeFiles/
+*.bin
+*.hex
+*.elf
+*.raw
+*.map
+*.obj
+*.o
+*.su
+__pycache__/
+*.py[cod]
