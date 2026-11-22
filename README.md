@@ -9,10 +9,7 @@ The firmware runs the calculator's Nut ROM with a C interpreter and an
 expanded 208-register pool (64 in stock firmware). The revised MEM display
 handles three-digit register counts. The firmware also corrects several
 display and blink problems, and uses a new debounce scanner with a retained
-settings menu. This build uses the hardware-tested **2026-11-22** image as
-its baseline. Later standalone revisions removed superseded ARM code and
-ported the key queue, flash checksum, Nut field-cache initialization and LCD
-contrast setting to C.
+settings menu.
 
 ## INSTALLATION
 
