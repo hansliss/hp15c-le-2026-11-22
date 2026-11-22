@@ -8,17 +8,17 @@ firmware and keyboard response on a physical calculator.
 The firmware runs the calculator's Nut ROM with a C interpreter and an
 expanded 208-register pool (64 in stock firmware). The revised MEM display
 handles three-digit register counts. The firmware also corrects several
-display and blink problems, and uses a new debounce scanner with a retained
-settings menu.
+display and blink problems, and uses a new debounce scanner with a
+settings menu in the factory settings.
 
 ## INSTALLATION
 
 You will need the **serial pogo-pin cable** to program the HP 15C-LE. This
 cable has a special locking pogo-pin connector in one end, a small black
 box with a blue "ERASE" and a blue "RESET" button in the middle, and a DE-9
-serial connector in the other end. It is **NOT** the same cable used
+serial connector in the other end. **It is NOT the same cable used
 with the modern HP-15C Collector's Edition! That cable is USB and not
-in any way compatible with the LE.
+in any way compatible with the LE.**
 
 You will also need the ```MySamBa.exe``` program to send the firmware file
 to the calculator. If you have the cable, you probably also have the program
@@ -127,6 +127,12 @@ release samples, and eight timer units. The factory menu's `4.P` submenu can
 change these values and retain them across normal off/on. Hardware regression
 testing found the response satisfactory. Rare contact failures and held-key
 current have not been quantified.
+
+I need to point out that this has been difficult to verify on real hardware,
+since the LE sometimes tends to improve with use. Presumably, the keys aren't
+very high quality and may be contaminated with oxide or some other substance
+that wears off with use. All I know is that my particular specimen now works
+almost flawlessly after being more or less unusable for it's entire life.
 
 ### Developer pointers
 
